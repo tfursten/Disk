@@ -6,7 +6,8 @@ int main()
 {
     cout << "Hello world!" << endl;
     Disk d;
-    d.initialize(2.0);
+    d.initialize(.1);
     d.getTables();
+    d.printTables();
     return 0;
 }
