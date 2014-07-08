@@ -5,6 +5,7 @@
 #include <vector>
 #include <map>
 #include <iostream>
+#include "aliastable.h"
 using namespace std;
 typedef pair<int,int> xyCoord;
 typedef map<xyCoord, double> pMap;
@@ -20,6 +21,9 @@ private:
     double maxX;
     double totalArea;
     int vecDim;
+    vector<xyCoord> coordVec;
+    vector<double> probVec;
+    alias_table xyTable;
 
     double integrate(double x1, double x2);
     void getCellRange();
@@ -29,13 +33,16 @@ private:
     int getBin(double x);
     void getAreas(int i);
     void areas(double x1, double x2, int i);
+    void makeVectors();
+    void makeAliasTable();
 
 
 
 public:
     void initialize(double r);
-    void getTables();
+    void makeTables();
     void printTables();
+    xyCoord disperse(uint64_t u);
 
 };
 

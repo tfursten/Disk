@@ -97,7 +97,7 @@ void Disk::getAreas(int i){
 
 
 
-void Disk::getTables(){
+void Disk::makeTables(){
     for(int i=0; i<maxX; i++)
         getAreas(i);
     for(int x=maxX; x<vecDim; x++){
@@ -117,6 +117,23 @@ void Disk::getTables(){
             }
         }
     }
+    makeVectors();
+    makeAliasTable();
+}
+
+xyCoord Disk::disperse(uint64_t u){
+    return coordVec[xyTable(u)];
+}
+
+void Disk::makeVectors(){
+    for (map<pair<int,int>,double>::iterator it = probMap.begin(); it != probMap.end(); ++it){
+        coordVec.push_back(it->first);
+        probVec.push_back(it->second);
+    }
+}
+
+void Disk::makeAliasTable(){
+    xyTable.create(probVec.begin(),probVec.end());
 }
 
 void Disk::printTables(){
