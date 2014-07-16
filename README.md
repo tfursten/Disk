@@ -17,7 +17,7 @@ Description
 
 Examples
 --------
-![Alt text](https://github.com/tfursten/Disk_Prob/blob/master/Examples/.5.png?raw=true =10x10)
+![Alt text](https://github.com/tfursten/Disk_Prob/blob/master/Examples/0.5.png?raw=true =10x10)
 ![Alt text](https://github.com/tfursten/Disk_Prob/blob/master/Examples/1.png?raw=true =10x10)
 ![Alt text](https://github.com/tfursten/Disk_Prob/blob/master/Examples/2.png?raw=true =100x100)
 ![Alt text](https://github.com/tfursten/Disk_Prob/blob/master/Examples/4.png?raw=true =100x100)
