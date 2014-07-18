@@ -13,7 +13,7 @@ Arizona State University
 
 Description
 -----------
-
+This program will provide alias tables for the efficient discrete sampling of lattice cells that lie beneath a disk of a given radius.
 
 Examples
 --------
