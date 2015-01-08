@@ -1,6 +1,6 @@
 Disk
 =========
-Alias tables for discrete sampling of a disk on a lattice
+Uniform sampling of a disk
 
 Author
 ------
