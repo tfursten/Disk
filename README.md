@@ -21,5 +21,4 @@ Examples
 ![Alt text](https://github.com/tfursten/Disk/blob/master/Examples/1.png?raw=true =10x10)
 ![Alt text](https://github.com/tfursten/Disk/blob/master/Examples/2.png?raw=true =100x100)
 ![Alt text](https://github.com/tfursten/Disk/blob/master/Examples/4.png?raw=true =100x100)
-![Alt text](https://github.com/tfursten/Disk/blob/master/Examples/6.png?raw=true =100x100)
-![Alt text](https://github.com/tfursten/Disk/blob/master/Examples/8.png?raw=true =100x100)
+
